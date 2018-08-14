@@ -1,0 +1,15 @@
+{
+  "name": "another-sinatra-test-app",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
