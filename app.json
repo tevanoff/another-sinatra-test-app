@@ -1,0 +1,28 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ],
+  "env": {
+    "AAA": "BBB",
+    "CCC": {
+      "generator": "secret"
+    },
+    "EEE": {
+      "required": true
+    },
+    "FFF": "FFF"
+  },
+  "formation": {
+  },
+  "name": "another-sinatra-test-app",
+  "scripts": {
+    "postdeploy": "bin/setup",
+    "pr-predestroy": "bin/teardown"
+  },
+  "stack": "heroku-18"
+}
