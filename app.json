@@ -10,7 +10,7 @@
       "generator": "secret"
     },
     "DDD": {
-      "required": true
+      "required": false
     },
     "EEE": "EEE"
   },
