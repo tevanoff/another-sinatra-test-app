@@ -1,16 +1,12 @@
 {
   "name": "another-sinatra-test-app",
-  "scripts": {
-    "postdeploy": "bin/setup",
-    "pr-predestroy": "bin/teardown"
-  },
   "env": {
     "AAA": "BBB",
     "BBB": {
       "generator": "secret"
     },
     "DDD": {
-      "required": true
+      "required": false
     },
     "EEE": "EEE"
   },
