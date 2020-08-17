@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "***** RELEASE PHASE START *****"
-sleep 1m
+sleep 10
 echo "***** RELEASE PHASE END *****"
