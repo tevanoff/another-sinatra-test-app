@@ -13,7 +13,7 @@
   "formation": {
   },
   "addons": [
-
+    "heroku-postgresql:hobby-basic"
   ],
   "stack": "heroku-18",
   "buildpacks": [
