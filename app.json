@@ -10,12 +10,6 @@
     },
     "EEE": "EEE"
   },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "standard-1x"
-    }
-  },
   "addons": [
     "heroku-postgresql:hobby-basic"
   ],
